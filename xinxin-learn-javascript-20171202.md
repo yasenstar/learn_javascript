@@ -20,6 +20,9 @@
 # 2017/12/02：柱状图，折线图与饼图
 
 ## 工具的准备
+
+[回到顶端](https://github.com/yasenstar/learn_javascript/blob/master/xinxin-learn-javascript-20171202.md#欣欣的javascript学习笔记)
+
 使用图形数据，我们目前需要的是下面网址中的图形库：
 
 Flotr2 ([http://www.humblesoftware.com/flotr2](http://www.humblesoftware.com/flotr2))
@@ -35,6 +38,12 @@ Flotr2 ([http://www.humblesoftware.com/flotr2](http://www.humblesoftware.com/flo
 
 ## 柱状图基础
 
+[回到顶端](https://github.com/yasenstar/learn_javascript/blob/master/xinxin-learn-javascript-20171202.md#欣欣的javascript学习笔记)
+
 ## 折线图基础
 
+[回到顶端](https://github.com/yasenstar/learn_javascript/blob/master/xinxin-learn-javascript-20171202.md#欣欣的javascript学习笔记)
+
 ## 饼图基础
+
+[回到顶端](https://github.com/yasenstar/learn_javascript/blob/master/xinxin-learn-javascript-20171202.md#欣欣的javascript学习笔记)
