@@ -5,9 +5,17 @@
 
 ## 工具的准备
 使用图形数据，我们目前需要的是下面网址中的图形库：
+
 Flotr2 ([http://www.humblesoftware.com/flotr2](http://www.humblesoftware.com/flotr2))
+
 如下，这个网站提供了交互式图形的很多有用的程序库：
 ![Flotr2 Home Page](pics/flotr2-home.png)
+
+我们暂时不用全部文件都去了解，完成目前的一系列基本图形的绘制，我们先只需要如下这个文件（注意是js结尾的，意味着javascript类型的文件）：
+
+[flotr2.min.js](https://github.com/HumbleSoftware/Flotr2/blob/master/flotr2.min.js)
+
+点击即可下载，你已经今天下载完毕，并成功放在了你的Git学习目录中的js子目录中了。
 
 ## 柱状图基础
 
