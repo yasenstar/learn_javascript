@@ -5,6 +5,18 @@
 
 ---
 
+目录
+
+- [工具的准备](https://github.com/yasenstar/learn_javascript/blob/master/xinxin-learn-javascript-20171202.md#工具的准备)
+
+- [柱状图基础](https://github.com/yasenstar/learn_javascript/blob/master/xinxin-learn-javascript-20171202.md#柱状图基础)
+
+- [折线图基础](https://github.com/yasenstar/learn_javascript/blob/master/xinxin-learn-javascript-20171202.md#折线图基础)
+
+- [饼图基础](https://github.com/yasenstar/learn_javascript/blob/master/xinxin-learn-javascript-20171202.md#饼图基础)
+
+---
+
 # 2017/12/02：柱状图，折线图与饼图
 
 ## 工具的准备
