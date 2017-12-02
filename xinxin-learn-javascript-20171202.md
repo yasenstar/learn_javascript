@@ -1,4 +1,4 @@
-#欣欣的javascript学习笔记
+# 欣欣的javascript学习笔记
 
 ![Data Visualization with JavaScript](pics/data_visualization_with_javascript_cover.jpg)
 使用的书籍：Stephen A. Thomas所著的《Javascript数据可视化编程》
