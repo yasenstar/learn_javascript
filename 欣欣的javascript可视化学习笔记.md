@@ -4,6 +4,9 @@
 # 2017/12/02：柱状图，折线图与饼图
 
 ## 工具的准备
+使用图形数据，我们目前需要的是下面网址中的图形库：
+Flotr2 ([http://www.humblesoftware.com/flotr2](http://www.humblesoftware.com/flotr2))
+
 
 ## 柱状图基础
 
