@@ -6,7 +6,8 @@
 ## 工具的准备
 使用图形数据，我们目前需要的是下面网址中的图形库：
 Flotr2 ([http://www.humblesoftware.com/flotr2](http://www.humblesoftware.com/flotr2))
-
+如下，这个网站提供了交互式图形的很多有用的程序库：
+![Flotr2 Home Page](pics/flotr2-home.png)
 
 ## 柱状图基础
 
