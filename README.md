@@ -22,3 +22,21 @@ T​hese resources provide some more in-depth information on the topics covered 
 
 [Emojis](http://unicode.org/emoji/charts/full-emoji-list.html#1f600)
 
+## Learning Resources for HTML / CSS / Javascript
+
+### General
+
+- https://www.w3schools.com/ - Free HTML, CSS, Javascript (and more) tutorials
+- https://caniuse.com/ - Find out which browsers support which features
+
+### HTML
+
+- https://app.pluralsight.com/path/skills/html5 HTML skill path
+
+### CSS
+
+- https://app.pluralsight.com/path/skills/css CSS skill path
+
+### Javascript
+
+- https://app.pluralsight.com/path/skill/javascript Javascript skill path
