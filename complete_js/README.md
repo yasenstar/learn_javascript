@@ -7,3 +7,11 @@
 ## Theme in VS Code
 
 Install `MonoKai Pro` from extension
+
+## Settings in VS Code from Default
+
+- Auto Save: from "off" to "onFocusChange"
+- Multi Cursor Modifier: from "alt" to "ctrlCmd" 
+- Word Wrap: from "off" to "on"
+- Format On Save: select
+- 
