@@ -6,7 +6,8 @@
 
 ## Theme in VS Code
 
-Install `MonoKai Pro` from extension
+- Color theme: Install `MonoKai Pro` from extension
+- File icon theme: choose `Seti`
 
 ## Settings in VS Code from Default
 
@@ -14,4 +15,4 @@ Install `MonoKai Pro` from extension
 - Multi Cursor Modifier: from "alt" to "ctrlCmd" 
 - Word Wrap: from "off" to "on"
 - Format On Save: select
-- 
+
