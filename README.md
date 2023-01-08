@@ -40,3 +40,13 @@ T​hese resources provide some more in-depth information on the topics covered 
 ### Javascript
 
 - https://app.pluralsight.com/path/skill/javascript Javascript skill path
+
+Things to learn on Javascript before React:
+
+1. map() & filter()
+2. slice() & splice()
+3. concat()
+4. find() & findIndex()
+5. destructuring
+6. rest & speed operator
+7. promises
