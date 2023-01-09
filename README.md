@@ -41,7 +41,7 @@ T​hese resources provide some more in-depth information on the topics covered 
 
 - https://app.pluralsight.com/path/skill/javascript Javascript skill path
 
-Things to learn on Javascript before React:
+[Things to learn on Javascript before React](Things%20to%20learn%20on%20Javascript%20before%20React.md):
 
 1. map() & filter()
 2. slice() & splice()
