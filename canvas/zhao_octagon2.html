@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Canvas tutorial</title>
+  <script>
+    function draw() {
+      const canvas = document.getElementById("tutorial");
+      if (canvas.getContext) {
+        const ctx = canvas.getContext("2d");
+        const x0 = 500, y0 = 525;
+        const edge = 240;
+        var x = [];
+        var y = [];
+        x.push(x0);
+        y.push(y0 + edge);
+        x.push(x[0] + edge * Math.tan(22.5));
+        y.push(y[0]);
+        x.push(x[1] + edge * Math.tan(22.5) * Math.sin(45));
+        y.push(y[1] - edge * Math.tan(22.5) * Math.sin(45));
+        x.push(x[2] + edge * Math.tan(22.5) * Math.sin(45));
+        y.push(y[2] - edge * Math.tan(22.5) * Math.sin(45));
+        x.push(x[3]);
+        y.push(y[3] - edge * Math.tan(22.5));
+        x.push(x[4]);
+        y.push(y[4] - edge * Math.tan(22.5));
+        x.push(x[5] - edge * Math.tan(22.5) * Math.sin(45));
+        y.push(y[5] - edge * Math.tan(22.5) * Math.sin(45));
+        x.push(x[6] - edge * Math.tan(22.5) * Math.sin(45));
+        y.push(y[6] - edge * Math.tan(22.5) * Math.sin(45));
+        x.push(x[7] - edge * Math.tan(22.5));
+        y.push(y[7]);
+        x.push(x[8] - edge * Math.tan(22.5));
+        y.push(y[8]);
+        x.push(x[9] - edge * Math.tan(22.5) * Math.sin(45));
+        y.push(y[9] + edge * Math.tan(22.5) * Math.sin(45));
+        x.push(x[10] - edge * Math.tan(22.5) * Math.sin(45));
+        y.push(y[10] + edge * Math.tan(22.5) * Math.sin(45));
+        x.push(x[11]);
+        y.push(y[11] + edge * Math.tan(22.5));
+        x.push(x[12]);
+        y.push(y[12] + edge * Math.tan(22.5));
+        x.push(x[13] + edge * Math.tan(22.5) * Math.sin(45));
+        y.push(y[13] + edge * Math.tan(22.5) * Math.sin(45));
+        x.push(x[14] + edge * Math.tan(22.5) * Math.sin(45));
+        y.push(y[14] + edge * Math.tan(22.5) * Math.sin(45));
+
+        for (let i = 0; i < x.length; i++) {
+          if (i % 2 == 0) {
+            for (let j = 0; j < x.length; j += 2) {
+              ctx.beginPath();
+              ctx.moveTo(x[i], y[i]);
+              ctx.lineTo(x[j], y[j]);
+              ctx.closePath();
+              ctx.stroke();
+            }}
+            else {
+              for (let j = 1; j < x.length; j += 2) {
+              ctx.beginPath();
+              ctx.moveTo(x[i], y[i]);
+              ctx.lineTo(x[j], y[j]);
+              ctx.closePath();
+              ctx.stroke();
+            }
+          }
+        }
+      }
+    };
+
+  </script>
+  <style>
+    canvas {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body onload="draw();">
+  <canvas id="tutorial" width="1000" height="800"></canvas>
+  <script>
+  </script>
+</body>
+
+</html>

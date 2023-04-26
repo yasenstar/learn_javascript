@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Canvas tutorial</title>
+    <script>
+      function draw() {
+        const canvas = document.getElementById("tutorial");
+        if (canvas.getContext) {
+          const ctx = canvas.getContext("2d");
+          const x0 = 500, y0 = 500;
+          var x = [];
+          var y = [];
+          x.push(x0);
+          y.push(y0+200);
+          x.push(x[0]+200*Math.tan(22.5));
+          y.push(y[0]);
+          x.push(x[1]+200*Math.tan(22.5)*Math.sin(45));
+          y.push(y[1]-200*Math.tan(22.5)*Math.sin(45));
+          x.push(x[2]+200*Math.tan(22.5)*Math.sin(45));
+          y.push(y[2]-200*Math.tan(22.5)*Math.sin(45));
+          x.push(x[3]);
+          y.push(y[3]-200*Math.tan(22.5));
+          x.push(x[4]);
+          y.push(y[4]-200*Math.tan(22.5));          
+          x.push(x[5]-200*Math.tan(22.5)*Math.sin(45));
+          y.push(y[5]-200*Math.tan(22.5)*Math.sin(45));          
+          x.push(x[6]-200*Math.tan(22.5)*Math.sin(45));
+          y.push(y[6]-200*Math.tan(22.5)*Math.sin(45));
+          x.push(x[7]-200*Math.tan(22.5));
+          y.push(y[7]);
+          x.push(x[8]-200*Math.tan(22.5));
+          y.push(y[8]);
+          x.push(x[9]-200*Math.tan(22.5)*Math.sin(45));
+          y.push(y[9]+200*Math.tan(22.5)*Math.sin(45));
+          x.push(x[10]-200*Math.tan(22.5)*Math.sin(45));
+          y.push(y[10]+200*Math.tan(22.5)*Math.sin(45));
+          x.push(x[11]);
+          y.push(y[11]+200*Math.tan(22.5));
+          x.push(x[12]);
+          y.push(y[12]+200*Math.tan(22.5));          
+          x.push(x[13]+200*Math.tan(22.5)*Math.sin(45));
+          y.push(y[13]+200*Math.tan(22.5)*Math.sin(45));          
+          x.push(x[14]+200*Math.tan(22.5)*Math.sin(45));
+          y.push(y[14]+200*Math.tan(22.5)*Math.sin(45));  
+
+          for (let i = 0; i < x.length; i++) {
+            for (let j = 0; j < x.length; j+=2) {
+              ctx.beginPath();
+              ctx.moveTo(x[i], y[i]);
+              ctx.lineTo(x[j], y[j]);
+              ctx.closePath();
+              ctx.stroke();
+            }
+          }
+        }
+      };
+      
+    </script>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body onload="draw();">
+    <canvas id="tutorial" width="1000" height="800"></canvas>
+    <script>
+    </script>
+  </body>
+</html>
