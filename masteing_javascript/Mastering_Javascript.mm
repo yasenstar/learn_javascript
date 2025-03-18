@@ -100,6 +100,58 @@
     </p>
   </body>
 </html></richcontent>
+<node TEXT="A little bit of history" ID="ID_348801511" CREATED="1742304799445" MODIFIED="1742304804099"/>
+<node TEXT="How to use this book?" ID="ID_1004554245" CREATED="1742304922022" MODIFIED="1742304927690">
+<node TEXT="Use &quot;Node&quot;" ID="ID_760269368" CREATED="1742305491384" MODIFIED="1742305496236"/>
+<node TEXT="JS Bin" ID="ID_1470936358" CREATED="1742305180146" MODIFIED="1742305184565" LINK="https://jsbin.com/"/>
+</node>
+<node TEXT="Hello World" ID="ID_1697806406" CREATED="1742305207419" MODIFIED="1742305210047">
+<node TEXT="An Overview of JavaScript" ID="ID_528683975" CREATED="1742305230603" MODIFIED="1742305236471"/>
+<node TEXT="Comments: // and /*...*/" ID="ID_729278404" CREATED="1742305236785" MODIFIED="1742305255616"/>
+<node ID="ID_968167647" CREATED="1742305258857" MODIFIED="1742305299680"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Variables: defined with the <span style="font-weight: bold;">var</span><span style="font-weight: normal;">&#xa0;&#xa0;keyword</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_278312581" CREATED="1742305353505" MODIFIED="1742305371360"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Constants: create with the <span style="font-weight: bold;">const</span><span style="font-weight: normal;">&#xa0;&#xa0;keyword</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Data Types" ID="ID_729319081" CREATED="1742305413449" MODIFIED="1742305415983">
+<node TEXT="Number" ID="ID_221946470" CREATED="1742305384123" MODIFIED="1742305388251">
+<node TEXT="big.js" ID="ID_1788023911" CREATED="1742305523761" MODIFIED="1742305539444" LINK="https://github.com/MikeMcl/big.js"/>
+</node>
+<node TEXT="String" ID="ID_1382537940" CREATED="1742305429032" MODIFIED="1742305433467"/>
+<node TEXT="Boolean" ID="ID_1908095665" CREATED="1742305433922" MODIFIED="1742305436165"/>
+<node TEXT="Symbol" ID="ID_325355601" CREATED="1742305436634" MODIFIED="1742305440077"/>
+<node TEXT="Object" ID="ID_1461183188" CREATED="1742305440240" MODIFIED="1742305443529"/>
+<node TEXT="Function" ID="ID_1966286746" CREATED="1742305443713" MODIFIED="1742305445398"/>
+<node TEXT="Array" ID="ID_173676620" CREATED="1742305445577" MODIFIED="1742305446915"/>
+<node TEXT="Date" ID="ID_1620806107" CREATED="1742305447128" MODIFIED="1742305448045"/>
+<node TEXT="RegExp" ID="ID_649731317" CREATED="1742305448249" MODIFIED="1742305449836"/>
+<node TEXT="Null" ID="ID_694709801" CREATED="1742305450123" MODIFIED="1742305451492"/>
+<node TEXT="Undefined" ID="ID_360601401" CREATED="1742305451849" MODIFIED="1742305453789"/>
+</node>
+</node>
 </node>
 <node TEXT="CH2. Functions, Closures and Modules" POSITION="bottom_or_right" ID="ID_395084018" CREATED="1742303253761" MODIFIED="1742303320365"><richcontent TYPE="NOTE">
 <html>
