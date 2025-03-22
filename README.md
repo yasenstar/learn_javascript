@@ -1,4 +1,12 @@
-# learn_javascript
+# Learn JavaScript
+
+## Featured Contents
+
+### "Mastering Javascript"
+
+[![MasterJS](/masteing_javascript/img/Mastering-Javascript_book-cover.png)](/masteing_javascript/README.md)
+
+Udemy online course will be available soon...
 
 ## Resources on JavaScript
 
