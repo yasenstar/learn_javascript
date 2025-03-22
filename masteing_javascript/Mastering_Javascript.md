@@ -9,6 +9,24 @@ Chapter 1, JavaScript Primer, focuses on the language constructs without spendin
 
 ## 1.1 A little bit of history
 
+### Open Source ecosystem
+
+### Database using JavaScript
+
+#### MongoDB
+
+#### CouchDB
+
+#### AlaSQL
+
+### JavaScript Framework
+
+#### Node.js
+
+#### io.js
+
+### JavaScript: Designing a Language in 10 Days
+
 ## 1.2 How to use this book?
 
 ### Use "Node"
