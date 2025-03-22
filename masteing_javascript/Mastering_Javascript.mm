@@ -3,7 +3,7 @@
 <node TEXT="Mastering_Javascript" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1742303102408">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3ff" zoom="0.826">
+<hook NAME="MapStyle" background="#fdf6e3ff">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -89,7 +89,7 @@
 </hook>
 <hook URI="img/Mastering-Javascript_book-cover.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="Opening and Preface" POSITION="bottom_or_right" ID="ID_1500983019" CREATED="1742303820084" MODIFIED="1742303827552"/>
-<node TEXT="CH1. JavaScript Primer" FOLDED="true" POSITION="bottom_or_right" ID="ID_1596786013" CREATED="1742303236296" MODIFIED="1742303295347"><richcontent TYPE="NOTE">
+<node TEXT="CH1. JavaScript Primer" POSITION="bottom_or_right" ID="ID_1596786013" CREATED="1742303236296" MODIFIED="1742303295347"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -100,12 +100,14 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="1.1 A little bit of history" ID="ID_348801511" CREATED="1742304799445" MODIFIED="1742345517507"/>
-<node TEXT="1.2 How to use this book?" ID="ID_1004554245" CREATED="1742304922022" MODIFIED="1742345521930">
+<node TEXT="1.1 A little bit of history" ID="ID_348801511" CREATED="1742304799445" MODIFIED="1742345517507">
+<node TEXT="JavaScript: Designing a Language in 10 Days" ID="ID_297107651" CREATED="1742608684317" MODIFIED="1742608698089" LINK="https://www.computer.org/csdl/magazine/co/2012/02/mco2012020007/13rRUy08MzA"/>
+</node>
+<node TEXT="1.2 How to use this book?" FOLDED="true" ID="ID_1004554245" CREATED="1742304922022" MODIFIED="1742345521930">
 <node TEXT="Use &quot;Node&quot;" ID="ID_760269368" CREATED="1742305491384" MODIFIED="1742305496236"/>
 <node TEXT="JS Bin" ID="ID_1470936358" CREATED="1742305180146" MODIFIED="1742305184565" LINK="https://jsbin.com/"/>
 </node>
-<node TEXT="1.3 Hello World" ID="ID_1697806406" CREATED="1742305207419" MODIFIED="1742345524673">
+<node TEXT="1.3 Hello World" FOLDED="true" ID="ID_1697806406" CREATED="1742305207419" MODIFIED="1742345524673">
 <node TEXT="An Overview of JavaScript" ID="ID_528683975" CREATED="1742305230603" MODIFIED="1742305236471">
 <node TEXT="Comments: // and /*...*/" POSITION="bottom_or_right" ID="ID_729278404" CREATED="1742305236785" MODIFIED="1742305255616"/>
 <node POSITION="bottom_or_right" ID="ID_968167647" CREATED="1742305258857" MODIFIED="1742305299680"><richcontent TYPE="NODE">
