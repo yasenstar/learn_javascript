@@ -7,7 +7,6 @@ URL at Next.js Learn: https://nextjs.org/learn/react-foundations
   - [01. About React and Next.js](#01-about-react-and-nextjs)
   - [02. Rendering User Interfaces (UI)](#02-rendering-user-interfaces-ui)
   - [03. Updating UI with Javascript](#03-updating-ui-with-javascript)
-- [Set total to the sum of numbers in mylist](#set-total-to-the-sum-of-numbers-in-mylist)
   - [04. Getting Started with React](#04-getting-started-with-react)
   - [05. Building UI with Components](#05-building-ui-with-components)
   - [06. Displaying Data with Props](#06-displaying-data-with-props)
@@ -95,8 +94,8 @@ mylist = [1,2,3,4,5]
 
 # Set total to the sum of numbers in mylist
 total = sum(mylist)
-print(total
-```)
+print(total)
+```
 
 ## 04. Getting Started with React
 
