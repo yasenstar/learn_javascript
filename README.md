@@ -1,5 +1,25 @@
 # Learn JavaScript
 
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/XiaoqiZhao)](https://x.com/XiaoqiZhao)
+[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg)](https://www.youtube.com/@yasenzhao)
+[![Static Badge](https://img.shields.io/badge/My_LinkedIn--XiaoqiZhao-blue)](https://www.linkedin.com/in/xiaoqi-zhao)
+
+![GitHub Repo stars](https://img.shields.io/github/stars/yasenstar/learn_javascript)
+![GitHub forks](https://img.shields.io/github/forks/yasenstar/learn_javascript)
+![GitHub License](https://img.shields.io/github/license/yasenstar/learn_javascript)
+![GitHub language count](https://img.shields.io/github/languages/count/yasenstar/learn_javascript)
+[![pages-build-deployment](https://github.com/yasenstar/learn_javascript/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/yasenstar/learn_javascript/actions/workflows/pages/pages-build-deployment)
+
+- [Learn JavaScript](#learn-javascript)
+  - [Featured Contents](#featured-contents)
+    - ["Mastering Javascript"](#mastering-javascript)
+  - [Resources on JavaScript](#resources-on-javascript)
+  - [Learning Resources for HTML / CSS / Javascript](#learning-resources-for-html--css--javascript)
+    - [General](#general)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Javascript](#javascript)
+
 ## Featured Contents
 
 ### "Mastering Javascript"
@@ -58,3 +78,7 @@ T​hese resources provide some more in-depth information on the topics covered 
 5. destructuring
 6. rest & speed operator
 7. promises
+
+---
+
+Last updated at 1/17/2026, 2:11:08 PM 
