@@ -106,6 +106,8 @@ Reference resources:
 
 ## 04. Getting Started with React
 
+React CDN Links: https://legacy.reactjs.org/docs/cdn-links.html
+
 ### The rules of JSX
 
 1. Return a single root element
