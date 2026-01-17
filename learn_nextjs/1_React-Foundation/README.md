@@ -97,6 +97,11 @@ total = sum(mylist)
 print(total)
 ```
 
+Reference resources:
+
+- [HTML vs. the DOM](https://developer.chrome.com/docs/devtools/dom/#appendix)
+- [UI: declarative vs. imperative](https://react.dev/learn/reacting-to-input-with-state#how-declarative-ui-compares-to-imperative)
+
 ## 04. Getting Started with React
 
 ## 05. Building UI with Components
