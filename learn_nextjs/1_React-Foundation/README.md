@@ -23,6 +23,39 @@ URL at Next.js Learn: https://nextjs.org/learn/react-foundations
 
 View HTML page's DOM Structure, use `DOM Tree Viewer` VS Code extension.
 
+DOM - Document Object Model ([Introduction of DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model))
+
+The DOM is an object representation of the HTML elements. It acts as a bridge between your code and the user interface, and has a tree-like structure with parent and child relationships.
+
+Sample HTML file:
+
+```html
+<html>
+    <head>
+        <title>My Testing</title>
+    </head>
+    <body>
+        <div>
+            <h1>Team</h1>
+            <ul>
+                <li>A. Lovelace</li>
+                <li>G. Hopper</li>
+                <li>M. Hamilton</li>
+            </ul>
+            <button>Like (0)</button>
+        </div>
+        <div>
+            <h2></h2>
+            <p></p>
+        </div>
+    </body>
+</html>
+```
+
+The DOM tree structure is as:
+
+![html-dom-structure](ch02/img/html-dom-structure.png)
+
 ## 03. Updating UI with Javascript
 
 ## 04. Getting Started with React
