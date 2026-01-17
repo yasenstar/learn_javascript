@@ -21,6 +21,8 @@ URL at Next.js Learn: https://nextjs.org/learn/react-foundations
 
 ## 02. Rendering User Interfaces (UI)
 
+View HTML page's DOM Structure, use `DOM Tree Viewer` VS Code extension.
+
 ## 03. Updating UI with Javascript
 
 ## 04. Getting Started with React
