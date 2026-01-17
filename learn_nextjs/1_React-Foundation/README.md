@@ -8,6 +8,8 @@ URL at Next.js Learn: https://nextjs.org/learn/react-foundations
   - [02. Rendering User Interfaces (UI)](#02-rendering-user-interfaces-ui)
   - [03. Updating UI with Javascript](#03-updating-ui-with-javascript)
   - [04. Getting Started with React](#04-getting-started-with-react)
+    - [The rules of JSX](#the-rules-of-jsx)
+    - [Handle JSX](#handle-jsx)
   - [05. Building UI with Components](#05-building-ui-with-components)
   - [06. Displaying Data with Props](#06-displaying-data-with-props)
   - [07. Adding Interactivity with State](#07-adding-interactivity-with-state)
@@ -103,6 +105,16 @@ Reference resources:
 - [UI: declarative vs. imperative](https://react.dev/learn/reacting-to-input-with-state#how-declarative-ui-compares-to-imperative)
 
 ## 04. Getting Started with React
+
+### The rules of JSX
+
+1. Return a single root element
+2. Close all the tags
+3. camelCase ~~all~~ most of the thing!
+
+### Handle JSX
+
+Need a JavaScript compiler, e.g. [Bable](https://babeljs.io/), to transform JSX code into regula JavaScript.
 
 ## 05. Building UI with Components
 
