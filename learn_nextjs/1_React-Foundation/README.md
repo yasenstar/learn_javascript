@@ -11,6 +11,8 @@ URL at Next.js Learn: https://nextjs.org/learn/react-foundations
     - [The rules of JSX](#the-rules-of-jsx)
     - [Handle JSX](#handle-jsx)
   - [05. Building UI with Components](#05-building-ui-with-components)
+    - [5.1 Build Single Component](#51-build-single-component)
+    - [5.2 Nesting Components](#52-nesting-components)
   - [06. Displaying Data with Props](#06-displaying-data-with-props)
   - [07. Adding Interactivity with State](#07-adding-interactivity-with-state)
   - [08. From React to Next.js](#08-from-react-to-nextjs)
@@ -108,6 +110,13 @@ Reference resources:
 
 React CDN Links: https://legacy.reactjs.org/docs/cdn-links.html
 
+Add following two libraries for React:
+
+```javascript
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+```
+
 ### The rules of JSX
 
 1. Return a single root element
@@ -118,7 +127,54 @@ React CDN Links: https://legacy.reactjs.org/docs/cdn-links.html
 
 Need a JavaScript compiler, e.g. [Bable](https://babeljs.io/), to transform JSX code into regula JavaScript.
 
+Add below library for Bable JS compiler:
+
+```javascript
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+```
+
 ## 05. Building UI with Components
+
+`Components` is the smaller building blocks that user interfaces are broken down into.
+
+### 5.1 Build Single Component
+
+In React, components are `functions`. Inside `script` tag, create a new function called `header`:
+
+```javascript
+function header() {}
+```
+
+A `component` is a function that **returns UI elements**. Inside the `return` statement of the function, the JSX syntax is supported:
+
+```javascript
+function header() {
+    return <h1>Develop. Preview. Ship.</h1>
+}
+```
+
+To render this components to the DOM, pass it as the first argument in the `root.render()` method:
+
+```javascript
+<script type="text/jsx">
+  const app = document.getElementById('app');
+ 
+  function header() {
+    return <h1>Develop. Preview. Ship.</h1>;
+  }
+ 
+  const root = ReactDOM.createRoot(app);
+  root.render(header);
+</script>
+```
+
+Some adjustments:
+
+1. React components should be capitalized to distinguish them from plain HTML and JavaScript: `function Header() {}` instead of `function header() {}`
+2. Need to use React components the same way as regular HTML tags, with angle brackets `<>`: so the three rules covering React are still applied.
+
+### 5.2 Nesting Components
+
 
 ## 06. Displaying Data with Props
 
