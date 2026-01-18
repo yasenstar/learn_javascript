@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Learn_Next.js&#xa;(React_Foundations)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1768575387360" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="1.1664455">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" associatedTemplateLocation="template:/light_sky_element_template.mm" show_tags="UNDER_NODES" showTagCategories="false"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sky_element_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -89,9 +89,19 @@
 <node TEXT="01. About React and Next.js" POSITION="bottom_or_right" ID="ID_40716110" CREATED="1768575431871" MODIFIED="1768575438323"/>
 <node TEXT="02. Rendering User Interfaces (UI)" POSITION="bottom_or_right" ID="ID_724057316" CREATED="1768575493702" MODIFIED="1768575509226"/>
 <node TEXT="03. Updating UI with Javascript" POSITION="bottom_or_right" ID="ID_367385781" CREATED="1768575438487" MODIFIED="1768575490433"/>
-<node TEXT="04. Getting Started with React" POSITION="bottom_or_right" ID="ID_68068075" CREATED="1768575451119" MODIFIED="1768575481577"/>
-<node TEXT="05. Building UI with Components" POSITION="bottom_or_right" ID="ID_799353715" CREATED="1768575459943" MODIFIED="1768575478228"/>
-<node TEXT="06. Displaying Data with Props" POSITION="bottom_or_right" ID="ID_1866513237" CREATED="1768575514070" MODIFIED="1768575520850"/>
+<node TEXT="04. Getting Started with React" FOLDED="true" POSITION="bottom_or_right" ID="ID_68068075" CREATED="1768575451119" MODIFIED="1768575481577">
+<node TEXT="4.1 Transform JavaScript with React" ID="ID_1443579432" CREATED="1768660745491" MODIFIED="1768660762158"/>
+<node TEXT="4.2 Handling JSX" ID="ID_1879882627" CREATED="1768660762356" MODIFIED="1768660768828"/>
+</node>
+<node TEXT="05. Building UI with Components" FOLDED="true" POSITION="bottom_or_right" ID="ID_799353715" CREATED="1768575459943" MODIFIED="1768575478228">
+<node TEXT="5.1 Creating Components" ID="ID_1651871254" CREATED="1768701730539" MODIFIED="1768701741005"/>
+<node TEXT="5.2 Nesting Components" ID="ID_1408835199" CREATED="1768701741512" MODIFIED="1768701747699"/>
+</node>
+<node TEXT="06. Displaying Data with Props" POSITION="bottom_or_right" ID="ID_1866513237" CREATED="1768575514070" MODIFIED="1768575520850">
+<node TEXT="6.1 Using Props" ID="ID_282897279" CREATED="1768713999498" MODIFIED="1768714005460"/>
+<node TEXT="6.2 Using variables in JSX" ID="ID_398892228" CREATED="1768714005688" MODIFIED="1768714015604"/>
+<node TEXT="6.3 Iterating through lists" ID="ID_898990686" CREATED="1768714015784" MODIFIED="1768714027243"/>
+</node>
 <node TEXT="07. Adding Interactivity with State" POSITION="bottom_or_right" ID="ID_569461443" CREATED="1768575520991" MODIFIED="1768575533528"/>
 <node TEXT="08. From React to Next.js" POSITION="bottom_or_right" ID="ID_460411280" CREATED="1768575533686" MODIFIED="1768575540361"/>
 <node TEXT="09. Installing Next.js" POSITION="bottom_or_right" ID="ID_225076750" CREATED="1768575540510" MODIFIED="1768575546602"/>

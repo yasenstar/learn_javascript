@@ -175,7 +175,6 @@ Some adjustments:
 
 ### 5.2 Nesting Components
 
-
 ## 06. Displaying Data with Props
 
 ## 07. Adding Interactivity with State
