@@ -10,15 +10,15 @@
         <script type="text/jsx">
             const app = document.getElementById('app');
 
-            function Header({title}) {
-                console.log(title);
-                return <div><h1>Develop. Preview. Ship.</h1><h2>title</h2></div>;
+            function Header(props) {
+                console.log(props);
+                return <div><h1>Develop. Preview. Ship.</h1><h2>Hello: {props.title}</h2></div>;
             }
 
             function HomePage() {
                 return (
                     <div>
-                        <Header title="React" />
+                        <Header title="React 6.2" />
                         <Header />
                     </div>                        
                 );
