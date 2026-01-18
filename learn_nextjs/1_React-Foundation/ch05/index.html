@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>My Project</title>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script type="text/jsx">
+            const app = document.getElementById('app');
+
+            function Header() {
+                return <div><h1>New Hello</h1><br/><h2>2nd hello</h2></div>;
+            }
+
+            const root = ReactDOM.createRoot(app);
+            root.render(<Header />);
+        </script>
+    </body>
+</html>
