@@ -190,4 +190,6 @@ Some adjustments:
 
 ## 09. Installing Next.js
 
+Add Node related `.gitignore` content from https://gitignore.org/Node
+
 ## 10. Server and Client Components
