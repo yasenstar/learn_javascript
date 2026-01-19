@@ -22,21 +22,21 @@
                     'Margaret Hamilton'
                 ];
 
-                let i = 0;
+                const [likes, setLikes] = React.useState(0);
 
                 function handleClick() {
-                    i++;
-                    console.log("increment Like count: ", i, ", keep clicking");
+                    // console.log("increment Like count");
+                    setLikes(likes + 1);
                 }
                 return (
                     <div>
-                        <Header title="React chapter 7.1" />
+                        <Header title="React chapter 7.2" />
                         <ul>
                             {names.map((name) => (
                                 <li key={name}>{name}</li>
                             ))}
                         </ul>
-                        <button onClick={handleClick}>L i k e</button>
+                        <button onClick={handleClick}>Like &#x1F9E1; ({likes}) </button>
                     </div>                        
                 );
             }
