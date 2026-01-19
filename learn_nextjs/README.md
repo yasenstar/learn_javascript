@@ -8,7 +8,7 @@
 
 ## 1. React Foundations
 
-Tutorial: [React_Foundations](React-Foundation/README.md)
+Tutorial and Learning Notes: [React_Foundations](1_React-Foundation/README.md)
 
 ## 2. App Router
 
