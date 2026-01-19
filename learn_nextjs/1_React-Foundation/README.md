@@ -3,6 +3,7 @@
 URL at Next.js Learn: https://nextjs.org/learn/react-foundations
 
 - [React Foundations](#react-foundations)
+  - [Packaged Demo Videos in Udemy](#packaged-demo-videos-in-udemy)
   - [00. Introduction](#00-introduction)
   - [01. About React and Next.js](#01-about-react-and-nextjs)
   - [02. Rendering User Interfaces (UI)](#02-rendering-user-interfaces-ui)
@@ -18,6 +19,12 @@ URL at Next.js Learn: https://nextjs.org/learn/react-foundations
   - [08. From React to Next.js](#08-from-react-to-nextjs)
   - [09. Installing Next.js](#09-installing-nextjs)
   - [10. Server and Client Components](#10-server-and-client-components)
+
+## Packaged Demo Videos in Udemy
+
+Click image for getting promotion code to enroll today:
+
+[![1.react-udemy](img/nextjs-1-react-udemy-image.png)](https://www.udemy.com/course/mastering-nextjs-1-react-foundations/?referralCode=271291A46585F5827557)
 
 ## 00. Introduction
 
