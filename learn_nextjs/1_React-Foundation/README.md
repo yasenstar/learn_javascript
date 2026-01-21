@@ -190,6 +190,11 @@ Some adjustments:
 
 ## 09. Installing Next.js
 
+Reference:
+- [Next.js Routing Fundamentals](https://nextjs.org/docs/app/building-your-application/routing)
+- [Defining Routes](https://nextjs.org/docs/app/building-your-application/routing/defining-routes)
+- [Pages and Layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts)
+
 Add Node related `.gitignore` content from https://gitignore.org/Node
 
 ## 10. Server and Client Components
