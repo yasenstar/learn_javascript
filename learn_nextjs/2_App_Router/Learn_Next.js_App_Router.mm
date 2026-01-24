@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Learn_Next.js&#xa;(App Router)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1768574641149" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="0.826">
+<node TEXT="Learn_Next.js&#xa;(App Router)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1768574641149" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="0.75131476">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sky_element_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -85,24 +85,14 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<node TEXT="00. Introduction" POSITION="bottom_or_right" ID="ID_1410071838" CREATED="1768574602338" MODIFIED="1768574607487"/>
-<node TEXT="01. Getting Started" POSITION="bottom_or_right" ID="ID_1345231397" CREATED="1768574360198" MODIFIED="1768574370318">
-<node TEXT="1.1 Creating a new project: starter-example" ID="ID_522659380" CREATED="1769177537266" MODIFIED="1769177562536"/>
-<node TEXT="1.2 Explore the project" ID="ID_1985154930" CREATED="1769177563279" MODIFIED="1769177569521">
-<node TEXT="1.2.1 Folder structure" ID="ID_593950487" CREATED="1769177579399" MODIFIED="1769177583955"/>
-<node TEXT="1.2.2 Placeholder data" ID="ID_462461654" CREATED="1769177584127" MODIFIED="1769177590466"/>
-<node TEXT="1.2.3 TypeScript" ID="ID_1892730207" CREATED="1769177633367" MODIFIED="1769177639593"/>
-</node>
-<node TEXT="1.3 Running the development server" ID="ID_1533897247" CREATED="1769177703455" MODIFIED="1769177715037"/>
-</node>
 <node TEXT="02. CSS Styling" POSITION="bottom_or_right" ID="ID_315451032" CREATED="1768574370485" MODIFIED="1768574377159">
 <node TEXT="2.1 Global styles" ID="ID_82923163" CREATED="1769177736135" MODIFIED="1769177771928"/>
-<node TEXT="2.2 Tailwind" ID="ID_665092774" CREATED="1769177821054" MODIFIED="1769177825692"/>
+<node TEXT="2.2 Tailwind" ID="ID_665092774" CREATED="1769177821054" MODIFIED="1769259035209" LINK="https://tailwindcss.com/"/>
 <node TEXT="2.3 CSS Modules" ID="ID_654772167" CREATED="1769177886694" MODIFIED="1769177890493"/>
-<node TEXT="2.4 Using the clsx library to toggle class names" ID="ID_1571842603" CREATED="1769177998538" MODIFIED="1769178012724"/>
+<node TEXT="2.4 Using the clsx library to toggle class names" ID="ID_1571842603" CREATED="1769177998538" MODIFIED="1769259043842" LINK="https://github.com/lukeed/clsx"/>
 <node TEXT="2.5 Other styling solutions" ID="ID_886599178" CREATED="1769178016974" MODIFIED="1769178025332"/>
 </node>
-<node TEXT="03. Optimizing Fonts and Images" POSITION="bottom_or_right" ID="ID_162726253" CREATED="1768574377300" MODIFIED="1768574384793">
+<node TEXT="03. Optimizing Fonts and Images" FOLDED="true" POSITION="bottom_or_right" ID="ID_162726253" CREATED="1768574377300" MODIFIED="1768574384793">
 <node TEXT="3.1 Why optimize fonts?" ID="ID_1791068930" CREATED="1769178059589" MODIFIED="1769178067411"/>
 <node TEXT="3.2 Adding a primary font" ID="ID_1221235346" CREATED="1769178073104" MODIFIED="1769178079273"/>
 <node TEXT="3.3 Practice: Adding a secondary font" ID="ID_259693530" CREATED="1769178089112" MODIFIED="1769178097683"/>
@@ -146,11 +136,6 @@
 <node TEXT="7.5 Practice: Fetch data for the &lt;Card&gt; components" ID="ID_198314790" CREATED="1769225028936" MODIFIED="1769225039417"/>
 <node TEXT="7.6 What are request waterfalls?" ID="ID_910898162" CREATED="1769225043808" MODIFIED="1769225052794"/>
 <node TEXT="7.7 Parallel data fetching" ID="ID_213186339" CREATED="1769225056272" MODIFIED="1769225069891"/>
-</node>
-<node TEXT="08. Static and Dynamic Rendering" FOLDED="true" POSITION="top_or_left" ID="ID_1671878719" CREATED="1768574415672" MODIFIED="1768574425375">
-<node TEXT="8.1 What is Static Rendering?" ID="ID_1043084312" CREATED="1769225087224" MODIFIED="1769225096931"/>
-<node TEXT="8.2 What is Dynamic Rendering?" ID="ID_480370257" CREATED="1769225108321" MODIFIED="1769225116738"/>
-<node TEXT="8.3 Simulating a Slow Data Fetch" ID="ID_1362044399" CREATED="1769225120080" MODIFIED="1769225129259"/>
 </node>
 <node TEXT="09. Streaming" FOLDED="true" POSITION="top_or_left" ID="ID_1757048157" CREATED="1768574425541" MODIFIED="1768574429785">
 <node TEXT="9.1 What is Streaming?" ID="ID_1606773080" CREATED="1769225135560" MODIFIED="1769225144203"/>
@@ -242,6 +227,21 @@
 <node TEXT="15.4.2 Page title and descriptions" ID="ID_152795926" CREATED="1769226901794" MODIFIED="1769226909382"/>
 </node>
 <node TEXT="15.5 Practice: Adding metadata" ID="ID_581747900" CREATED="1769226909996" MODIFIED="1769226923301"/>
+</node>
+<node TEXT="00. Introduction" POSITION="top_or_left" ID="ID_1410071838" CREATED="1768574602338" MODIFIED="1768574607487"/>
+<node TEXT="08. Static and Dynamic Rendering" FOLDED="true" POSITION="bottom_or_right" ID="ID_1671878719" CREATED="1768574415672" MODIFIED="1768574425375">
+<node TEXT="8.1 What is Static Rendering?" ID="ID_1043084312" CREATED="1769225087224" MODIFIED="1769225096931"/>
+<node TEXT="8.2 What is Dynamic Rendering?" ID="ID_480370257" CREATED="1769225108321" MODIFIED="1769225116738"/>
+<node TEXT="8.3 Simulating a Slow Data Fetch" ID="ID_1362044399" CREATED="1769225120080" MODIFIED="1769225129259"/>
+</node>
+<node TEXT="01. Getting Started" FOLDED="true" POSITION="top_or_left" ID="ID_1345231397" CREATED="1768574360198" MODIFIED="1768574370318">
+<node TEXT="1.1 Creating a new project: starter-example" ID="ID_522659380" CREATED="1769177537266" MODIFIED="1769177562536"/>
+<node TEXT="1.2 Explore the project" ID="ID_1985154930" CREATED="1769177563279" MODIFIED="1769177569521">
+<node TEXT="1.2.1 Folder structure" ID="ID_593950487" CREATED="1769177579399" MODIFIED="1769177583955"/>
+<node TEXT="1.2.2 Placeholder data" ID="ID_462461654" CREATED="1769177584127" MODIFIED="1769177590466"/>
+<node TEXT="1.2.3 TypeScript" ID="ID_1892730207" CREATED="1769177633367" MODIFIED="1769177639593"/>
+</node>
+<node TEXT="1.3 Running the development server" ID="ID_1533897247" CREATED="1769177703455" MODIFIED="1769177715037"/>
 </node>
 </node>
 </map>
