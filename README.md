@@ -12,6 +12,7 @@
 
 - [Learn JavaScript](#learn-javascript)
   - [Featured Contents](#featured-contents)
+    - [Learn Next.js - (1) React Foundations](#learn-nextjs---1-react-foundations)
     - ["Mastering Javascript"](#mastering-javascript)
   - [Resources on JavaScript](#resources-on-javascript)
   - [Learning Resources for HTML / CSS / Javascript](#learning-resources-for-html--css--javascript)
@@ -19,14 +20,23 @@
     - [HTML](#html)
     - [CSS](#css)
     - [Javascript](#javascript)
+  - [Other learning](#other-learning)
 
 ## Featured Contents
 
+### Learn Next.js - (1) React Foundations
+
+| Cover | Learning Notes | Packaged Course |
+| --- | --- | --- |
+| <img src="./learn_nextjs/1_React-Foundation/img/react_foundation.png" alt="Placeholder" width="250" height="250"> | [Notes Readme](./learn_nextjs/1_React-Foundation/README.md) | Udemy course:<br/>[![1.react-udemy](./learn_nextjs/1_React-Foundation/img/nextjs-1-react-udemy-image.png)](https://www.udemy.com/course/mastering-nextjs-1-react-foundations/?referralCode=271291A46585F5827557) |
+
 ### "Mastering Javascript"
 
-[![MasterJS](/masteing_javascript/img/Mastering-Javascript_book-cover.png)](/masteing_javascript/README.md)
+| Cover | Learning Notes | Packaged Course |
+| --- | --- | --- |
+| <img src="mastering_js/img/Mastering-Javascript_book-cover.png" alt="Placeholder" width="250" height="350"> | [Notes Readme](mastering_js/README.md) | Udemy online course will be available soon... |
 
-Udemy online course will be available soon...
+<!-- [![MasterJS](/masteing_javascript/img/Mastering-Javascript_book-cover.png)](/masteing_javascript/README.md) -->
 
 ## Resources on JavaScript
 
@@ -79,6 +89,16 @@ T​hese resources provide some more in-depth information on the topics covered 
 6. rest & speed operator
 7. promises
 
+## Other learning
+
+starting from 2017/11/28:
+reading the book: 《JavaScript数据可视化编程》(Data Visualization with JavaScript)
+![Data Visualization with JavaScript](img/data_visualization_with_javascript_cover.jpg)
+
+- 数据可视化是解决数据被浪费的重要工具。
+- 好的可视化追求的目标是让数据自身一目了然，让关注数据的人可以因此快速抓住数据的核心。
+- 如果把大数据处理技术比做加法，那么数据可视化就像是教你如何优雅地做减法。
+
 ---
 
-Last updated at 1/17/2026, 2:11:08 PM 
+Last updated at 1/24/2026, 6:13:31 PM 
