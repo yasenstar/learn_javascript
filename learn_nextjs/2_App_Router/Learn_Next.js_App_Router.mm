@@ -88,8 +88,10 @@
 <node TEXT="02. CSS Styling" POSITION="bottom_or_right" ID="ID_315451032" CREATED="1768574370485" MODIFIED="1768574377159">
 <node TEXT="2.1 Global styles" ID="ID_82923163" CREATED="1769177736135" MODIFIED="1769177771928"/>
 <node TEXT="2.2 Tailwind" ID="ID_665092774" CREATED="1769177821054" MODIFIED="1769259035209" LINK="https://tailwindcss.com/"/>
-<node TEXT="2.3 CSS Modules" ID="ID_654772167" CREATED="1769177886694" MODIFIED="1769177890493"/>
-<node TEXT="2.4 Using the clsx library to toggle class names" ID="ID_1571842603" CREATED="1769177998538" MODIFIED="1769259043842" LINK="https://github.com/lukeed/clsx"/>
+<node TEXT="2.3 CSS Modules" ID="ID_654772167" CREATED="1769177886694" MODIFIED="1769261251449" LINK="https://nextjs.org/docs/app/getting-started/css#css-modules"/>
+<node TEXT="2.4 Using the clsx library to toggle class names" ID="ID_1571842603" CREATED="1769177998538" MODIFIED="1769259043842" LINK="https://github.com/lukeed/clsx">
+<node TEXT="clsx documentation" ID="ID_1588833622" CREATED="1769265404190" MODIFIED="1769265410253" LINK="https://github.com/lukeed/clsx"/>
+</node>
 <node TEXT="2.5 Other styling solutions" ID="ID_886599178" CREATED="1769178016974" MODIFIED="1769178025332"/>
 </node>
 <node TEXT="03. Optimizing Fonts and Images" FOLDED="true" POSITION="bottom_or_right" ID="ID_162726253" CREATED="1768574377300" MODIFIED="1768574384793">
