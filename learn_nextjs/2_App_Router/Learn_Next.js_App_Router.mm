@@ -85,25 +85,7 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<node TEXT="02. CSS Styling" POSITION="bottom_or_right" ID="ID_315451032" CREATED="1768574370485" MODIFIED="1768574377159">
-<node TEXT="2.1 Global styles" ID="ID_82923163" CREATED="1769177736135" MODIFIED="1769177771928"/>
-<node TEXT="2.2 Tailwind" ID="ID_665092774" CREATED="1769177821054" MODIFIED="1769259035209" LINK="https://tailwindcss.com/"/>
-<node TEXT="2.3 CSS Modules" ID="ID_654772167" CREATED="1769177886694" MODIFIED="1769261251449" LINK="https://nextjs.org/docs/app/getting-started/css#css-modules"/>
-<node TEXT="2.4 Using the clsx library to toggle class names" ID="ID_1571842603" CREATED="1769177998538" MODIFIED="1769259043842" LINK="https://github.com/lukeed/clsx">
-<node TEXT="clsx documentation" ID="ID_1588833622" CREATED="1769265404190" MODIFIED="1769265410253" LINK="https://github.com/lukeed/clsx"/>
-</node>
-<node TEXT="2.5 Other styling solutions" ID="ID_886599178" CREATED="1769178016974" MODIFIED="1769178025332"/>
-</node>
-<node TEXT="03. Optimizing Fonts and Images" FOLDED="true" POSITION="bottom_or_right" ID="ID_162726253" CREATED="1768574377300" MODIFIED="1768574384793">
-<node TEXT="3.1 Why optimize fonts?" ID="ID_1791068930" CREATED="1769178059589" MODIFIED="1769178067411"/>
-<node TEXT="3.2 Adding a primary font" ID="ID_1221235346" CREATED="1769178073104" MODIFIED="1769178079273"/>
-<node TEXT="3.3 Practice: Adding a secondary font" ID="ID_259693530" CREATED="1769178089112" MODIFIED="1769178097683"/>
-<node TEXT="3.4 Why optimize images?" ID="ID_1075592278" CREATED="1769178100584" MODIFIED="1769178109003"/>
-<node TEXT="3.5 The &lt;image&gt; component" ID="ID_1958413989" CREATED="1769178111592" MODIFIED="1769178121258"/>
-<node TEXT="3.6 Adding the desktop hero image" ID="ID_1460533843" CREATED="1769178123456" MODIFIED="1769178131378"/>
-<node TEXT="3.7 Practice: Adding the mobile hero image" ID="ID_1086048897" CREATED="1769178137976" MODIFIED="1769178154043"/>
-</node>
-<node TEXT="04. Creating Layouts and Pages" FOLDED="true" POSITION="bottom_or_right" ID="ID_1046517879" CREATED="1768574384974" MODIFIED="1768574393649">
+<node TEXT="04. Creating Layouts and Pages" POSITION="bottom_or_right" ID="ID_1046517879" CREATED="1768574384974" MODIFIED="1768574393649">
 <node TEXT="4.1 Nested routing" ID="ID_1874871006" CREATED="1769224668958" MODIFIED="1769224677218"/>
 <node TEXT="4.2 Creating the dashboard page" ID="ID_1921489298" CREATED="1769224686962" MODIFIED="1769224696764"/>
 <node TEXT="4.3 Practice: Creating the dashboard pages" ID="ID_1175194507" CREATED="1769224711537" MODIFIED="1769224723931"/>
@@ -138,17 +120,6 @@
 <node TEXT="7.5 Practice: Fetch data for the &lt;Card&gt; components" ID="ID_198314790" CREATED="1769225028936" MODIFIED="1769225039417"/>
 <node TEXT="7.6 What are request waterfalls?" ID="ID_910898162" CREATED="1769225043808" MODIFIED="1769225052794"/>
 <node TEXT="7.7 Parallel data fetching" ID="ID_213186339" CREATED="1769225056272" MODIFIED="1769225069891"/>
-</node>
-<node TEXT="09. Streaming" FOLDED="true" POSITION="top_or_left" ID="ID_1757048157" CREATED="1768574425541" MODIFIED="1768574429785">
-<node TEXT="9.1 What is Streaming?" ID="ID_1606773080" CREATED="1769225135560" MODIFIED="1769225144203"/>
-<node TEXT="9.2 Streaming a whole page with &quot;loading.tsx&quot;" ID="ID_1128897994" CREATED="1769225148024" MODIFIED="1769225188450">
-<node TEXT="9.2.1 Adding loading skeletons" ID="ID_1574199992" CREATED="1769225192599" MODIFIED="1769225199539"/>
-<node TEXT="9.2.2 Fixing the loading skeleton bug with route groups" ID="ID_1625553007" CREATED="1769225219879" MODIFIED="1769225231515"/>
-<node TEXT="9.2.3 Streaming a component" ID="ID_1760412065" CREATED="1769225234455" MODIFIED="1769225241835"/>
-<node TEXT="9.2.4 Practice: Streaming &lt;LatestInvoices&gt;" POSITION="top_or_left" ID="ID_902685719" CREATED="1769225248464" MODIFIED="1769225279939"/>
-</node>
-<node TEXT="9.3 Grouping components" ID="ID_1089688556" CREATED="1769225280839" MODIFIED="1769225286747"/>
-<node TEXT="9.4 Deciding where to place your Suspense boundaries" ID="ID_1004723605" CREATED="1769225291592" MODIFIED="1769225301994"/>
 </node>
 <node TEXT="10. Adding Search and Pagination" FOLDED="true" POSITION="top_or_left" ID="ID_1303100278" CREATED="1768574429965" MODIFIED="1768574438134">
 <node TEXT="10.1 Starting code" ID="ID_865255550" CREATED="1769225320727" MODIFIED="1769225326746"/>
@@ -244,6 +215,35 @@
 <node TEXT="1.2.3 TypeScript" ID="ID_1892730207" CREATED="1769177633367" MODIFIED="1769177639593"/>
 </node>
 <node TEXT="1.3 Running the development server" ID="ID_1533897247" CREATED="1769177703455" MODIFIED="1769177715037"/>
+</node>
+<node TEXT="02. CSS Styling" FOLDED="true" POSITION="top_or_left" ID="ID_315451032" CREATED="1768574370485" MODIFIED="1768574377159">
+<node TEXT="2.1 Global styles" ID="ID_82923163" CREATED="1769177736135" MODIFIED="1769177771928"/>
+<node TEXT="2.2 Tailwind" ID="ID_665092774" CREATED="1769177821054" MODIFIED="1769259035209" LINK="https://tailwindcss.com/"/>
+<node TEXT="2.3 CSS Modules" ID="ID_654772167" CREATED="1769177886694" MODIFIED="1769261251449" LINK="https://nextjs.org/docs/app/getting-started/css#css-modules"/>
+<node TEXT="2.4 Using the clsx library to toggle class names" ID="ID_1571842603" CREATED="1769177998538" MODIFIED="1769259043842" LINK="https://github.com/lukeed/clsx">
+<node TEXT="clsx documentation" ID="ID_1588833622" CREATED="1769265404190" MODIFIED="1769265410253" LINK="https://github.com/lukeed/clsx"/>
+</node>
+<node TEXT="2.5 Other styling solutions" ID="ID_886599178" CREATED="1769178016974" MODIFIED="1769178025332"/>
+</node>
+<node TEXT="03. Optimizing Fonts and Images" FOLDED="true" POSITION="top_or_left" ID="ID_162726253" CREATED="1768574377300" MODIFIED="1768574384793">
+<node TEXT="3.1 Why optimize fonts?" ID="ID_1791068930" CREATED="1769178059589" MODIFIED="1769178067411"/>
+<node TEXT="3.2 Adding a primary font" ID="ID_1221235346" CREATED="1769178073104" MODIFIED="1769178079273"/>
+<node TEXT="3.3 Practice: Adding a secondary font" ID="ID_259693530" CREATED="1769178089112" MODIFIED="1769178097683"/>
+<node TEXT="3.4 Why optimize images?" ID="ID_1075592278" CREATED="1769178100584" MODIFIED="1769178109003"/>
+<node TEXT="3.5 The &lt;image&gt; component" ID="ID_1958413989" CREATED="1769178111592" MODIFIED="1769178121258"/>
+<node TEXT="3.6 Adding the desktop hero image" ID="ID_1460533843" CREATED="1769178123456" MODIFIED="1769178131378"/>
+<node TEXT="3.7 Practice: Adding the mobile hero image" ID="ID_1086048897" CREATED="1769178137976" MODIFIED="1769178154043"/>
+</node>
+<node TEXT="09. Streaming" FOLDED="true" POSITION="bottom_or_right" ID="ID_1757048157" CREATED="1768574425541" MODIFIED="1768574429785">
+<node TEXT="9.1 What is Streaming?" ID="ID_1606773080" CREATED="1769225135560" MODIFIED="1769225144203"/>
+<node TEXT="9.2 Streaming a whole page with &quot;loading.tsx&quot;" ID="ID_1128897994" CREATED="1769225148024" MODIFIED="1769225188450">
+<node TEXT="9.2.1 Adding loading skeletons" ID="ID_1574199992" CREATED="1769225192599" MODIFIED="1769225199539"/>
+<node TEXT="9.2.2 Fixing the loading skeleton bug with route groups" ID="ID_1625553007" CREATED="1769225219879" MODIFIED="1769225231515"/>
+<node TEXT="9.2.3 Streaming a component" ID="ID_1760412065" CREATED="1769225234455" MODIFIED="1769225241835"/>
+<node TEXT="9.2.4 Practice: Streaming &lt;LatestInvoices&gt;" POSITION="top_or_left" ID="ID_902685719" CREATED="1769225248464" MODIFIED="1769225279939"/>
+</node>
+<node TEXT="9.3 Grouping components" ID="ID_1089688556" CREATED="1769225280839" MODIFIED="1769225286747"/>
+<node TEXT="9.4 Deciding where to place your Suspense boundaries" ID="ID_1004723605" CREATED="1769225291592" MODIFIED="1769225301994"/>
 </node>
 </node>
 </map>
