@@ -85,21 +85,7 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<node TEXT="04. Creating Layouts and Pages" POSITION="bottom_or_right" ID="ID_1046517879" CREATED="1768574384974" MODIFIED="1768574393649">
-<node TEXT="4.1 Nested routing" ID="ID_1874871006" CREATED="1769224668958" MODIFIED="1769224677218"/>
-<node TEXT="4.2 Creating the dashboard page" ID="ID_1921489298" CREATED="1769224686962" MODIFIED="1769224696764"/>
-<node TEXT="4.3 Practice: Creating the dashboard pages" ID="ID_1175194507" CREATED="1769224711537" MODIFIED="1769224723931"/>
-<node TEXT="4.4 Creating the dashboard layout" ID="ID_645634672" CREATED="1769224724849" MODIFIED="1769224732524"/>
-<node TEXT="4.5 Root layout" ID="ID_485157633" CREATED="1769224738233" MODIFIED="1769224742825"/>
-</node>
-<node TEXT="05. Navigating Between Pages" FOLDED="true" POSITION="bottom_or_right" ID="ID_657216829" CREATED="1768574393805" MODIFIED="1768574402622">
-<node TEXT="5.1 Why optimize navigation?" ID="ID_494664811" CREATED="1769224752952" MODIFIED="1769224761797"/>
-<node TEXT="5.2 The &lt;link&gt; component" ID="ID_1300584649" CREATED="1769224763115" MODIFIED="1769224769276">
-<node TEXT="5.2.1 Automatic code-splitting and prefetching" ID="ID_457048168" CREATED="1769224776896" MODIFIED="1769224790724"/>
-</node>
-<node TEXT="5.3 Pattern: Showing active links" ID="ID_1728281481" CREATED="1769224795322" MODIFIED="1769224802782"/>
-</node>
-<node TEXT="06. Setting Up Your Database" FOLDED="true" POSITION="bottom_or_right" ID="ID_542174168" CREATED="1768574402788" MODIFIED="1768574409541">
+<node TEXT="06. Setting Up Your Database" POSITION="bottom_or_right" ID="ID_542174168" CREATED="1768574402788" MODIFIED="1768574409541">
 <node TEXT="6.1 Creating a Github repository" ID="ID_870192544" CREATED="1769224815761" MODIFIED="1769224827036"/>
 <node TEXT="6.2 Create a Vercel account" ID="ID_1171657464" CREATED="1769224827281" MODIFIED="1769224842100"/>
 <node TEXT="6.3 Connect and deploy your project" ID="ID_1151932356" CREATED="1769224842681" MODIFIED="1769224852602"/>
@@ -120,44 +106,6 @@
 <node TEXT="7.5 Practice: Fetch data for the &lt;Card&gt; components" ID="ID_198314790" CREATED="1769225028936" MODIFIED="1769225039417"/>
 <node TEXT="7.6 What are request waterfalls?" ID="ID_910898162" CREATED="1769225043808" MODIFIED="1769225052794"/>
 <node TEXT="7.7 Parallel data fetching" ID="ID_213186339" CREATED="1769225056272" MODIFIED="1769225069891"/>
-</node>
-<node TEXT="10. Adding Search and Pagination" FOLDED="true" POSITION="top_or_left" ID="ID_1303100278" CREATED="1768574429965" MODIFIED="1768574438134">
-<node TEXT="10.1 Starting code" ID="ID_865255550" CREATED="1769225320727" MODIFIED="1769225326746"/>
-<node TEXT="10.2 Why use URL search params?" ID="ID_40150133" CREATED="1769225330583" MODIFIED="1769225339122"/>
-<node TEXT="10.3 Adding the search functionality" ID="ID_324645666" CREATED="1769225344495" MODIFIED="1769225351666">
-<node TEXT="10.3.1 Capture the user&apos;s input" ID="ID_307667410" CREATED="1769225357895" MODIFIED="1769225367074"/>
-<node TEXT="10.3.2 Update the URL with the search params" ID="ID_1151982448" CREATED="1769225367239" MODIFIED="1769225379355"/>
-<node TEXT="10.3.3 Keep the URL in sync with the input field" ID="ID_1452393700" CREATED="1769225379519" MODIFIED="1769225388905"/>
-<node TEXT="10.3.4 Update the table to reflect the search query" ID="ID_329395590" CREATED="1769225389054" MODIFIED="1769225397729"/>
-<node TEXT="10.3.5 Best practice: Debouncing" POSITION="top_or_left" ID="ID_1655159134" CREATED="1769225415255" MODIFIED="1769225441682"/>
-</node>
-<node TEXT="10.4 Adding pagination" ID="ID_1607531648" CREATED="1769225442863" MODIFIED="1769225453082"/>
-</node>
-<node TEXT="11. Mutating Data" FOLDED="true" POSITION="top_or_left" ID="ID_729882400" CREATED="1768574438299" MODIFIED="1768574443445">
-<node TEXT="11.1 What are Server Actions?" ID="ID_305010281" CREATED="1769225462031" MODIFIED="1769225472042"/>
-<node TEXT="11.2 Using forms with Server Actions" ID="ID_1145722312" CREATED="1769225473815" MODIFIED="1769225483129"/>
-<node TEXT="11.3 Next.js with Server Actions" ID="ID_1798797346" CREATED="1769225488959" MODIFIED="1769225545346"/>
-<node TEXT="11.4 Creating an invoice" ID="ID_1328178290" CREATED="1769225545855" MODIFIED="1769225551618">
-<node TEXT="11.4.1 Create a form to capture the user&apos;s input" ID="ID_1637351088" CREATED="1769225555295" MODIFIED="1769225566450"/>
-<node TEXT="11.4.2 Create a Server Action and invoke it from the form" ID="ID_171531836" CREATED="1769225566622" MODIFIED="1769225581202"/>
-<node TEXT="11.4.3 Inside your Server Action, extract the data from the &quot;formData&quot; object" ID="ID_627901489" CREATED="1769225581374" MODIFIED="1769225599641"/>
-<node TEXT="11.4.4 Validate and prepare the data to be inserted into your database" ID="ID_704131292" CREATED="1769225599806" MODIFIED="1769225618579">
-<node TEXT="11.4.4.1 Type validation and coercion" ID="ID_42606050" CREATED="1769225656463" MODIFIED="1769225668017"/>
-<node TEXT="11.4.4.2 Storing values in cents" ID="ID_500079004" CREATED="1769225668190" MODIFIED="1769225678976"/>
-<node TEXT="11.4.4.3 Creating new dates" ID="ID_1310090831" CREATED="1769225682455" MODIFIED="1769225687505"/>
-</node>
-<node TEXT="11.4.5 Insert the data and handle any errors" ID="ID_989522173" CREATED="1769225618743" MODIFIED="1769225628010"/>
-<node TEXT="11.4.6 Revalidate the cache and redirect the user back to invoices page" ID="ID_243015266" CREATED="1769225628183" MODIFIED="1769225640889"/>
-</node>
-<node TEXT="11.5 Updating an invoice" ID="ID_717109982" CREATED="1769225694399" MODIFIED="1769225700105">
-<node TEXT="11.5.1 Create a Dynamic route Segment with the invoice" ID="ID_92761814" CREATED="1769225705103" MODIFIED="1769225719650"/>
-<node TEXT="11.5.2 Read the invoice &quot;id&quot; from page &quot;params&quot;" ID="ID_1813119157" CREATED="1769225720471" MODIFIED="1769225735041"/>
-<node TEXT="11.5.3 Fetch the specific invoice" ID="ID_302991023" CREATED="1769225735230" MODIFIED="1769225744458"/>
-<node TEXT="11.5.4 Pass the &quot;id&quot; to the Server Action" ID="ID_1458653002" CREATED="1769225744622" MODIFIED="1769225754034"/>
-<node TEXT="11.5.5 Calling &quot;revalidatePath&quot; to clear the client cache and make a new server request" ID="ID_968388640" CREATED="1769225754214" MODIFIED="1769225987970"/>
-<node TEXT="11.5.6 Calling &quot;redirect&quot; to redirect the user to the invoice&apos;s page" ID="ID_332976339" CREATED="1769225988135" MODIFIED="1769226002011"/>
-</node>
-<node TEXT="11.6 Deleting an invoice" ID="ID_1615950499" CREATED="1769226004992" MODIFIED="1769226009507"/>
 </node>
 <node TEXT="12. Handling Errors" FOLDED="true" POSITION="top_or_left" ID="ID_76868898" CREATED="1768574443603" MODIFIED="1768574448709">
 <node TEXT="12.1 Adding &quot;try/catch&quot; to Server Actions" ID="ID_164531540" CREATED="1769226019264" MODIFIED="1769226030580"/>
@@ -244,6 +192,58 @@
 </node>
 <node TEXT="9.3 Grouping components" ID="ID_1089688556" CREATED="1769225280839" MODIFIED="1769225286747"/>
 <node TEXT="9.4 Deciding where to place your Suspense boundaries" ID="ID_1004723605" CREATED="1769225291592" MODIFIED="1769225301994"/>
+</node>
+<node TEXT="04. Creating Layouts and Pages" FOLDED="true" POSITION="top_or_left" ID="ID_1046517879" CREATED="1768574384974" MODIFIED="1768574393649">
+<node TEXT="4.1 Nested routing" ID="ID_1874871006" CREATED="1769224668958" MODIFIED="1769224677218"/>
+<node TEXT="4.2 Creating the dashboard page" ID="ID_1921489298" CREATED="1769224686962" MODIFIED="1769224696764"/>
+<node TEXT="4.3 Practice: Creating the dashboard pages" ID="ID_1175194507" CREATED="1769224711537" MODIFIED="1769224723931"/>
+<node TEXT="4.4 Creating the dashboard layout" ID="ID_645634672" CREATED="1769224724849" MODIFIED="1769224732524"/>
+<node TEXT="4.5 Root layout" ID="ID_485157633" CREATED="1769224738233" MODIFIED="1769224742825"/>
+</node>
+<node TEXT="10. Adding Search and Pagination" FOLDED="true" POSITION="bottom_or_right" ID="ID_1303100278" CREATED="1768574429965" MODIFIED="1768574438134">
+<node TEXT="10.1 Starting code" ID="ID_865255550" CREATED="1769225320727" MODIFIED="1769225326746"/>
+<node TEXT="10.2 Why use URL search params?" ID="ID_40150133" CREATED="1769225330583" MODIFIED="1769225339122"/>
+<node TEXT="10.3 Adding the search functionality" ID="ID_324645666" CREATED="1769225344495" MODIFIED="1769225351666">
+<node TEXT="10.3.1 Capture the user&apos;s input" ID="ID_307667410" CREATED="1769225357895" MODIFIED="1769225367074"/>
+<node TEXT="10.3.2 Update the URL with the search params" ID="ID_1151982448" CREATED="1769225367239" MODIFIED="1769225379355"/>
+<node TEXT="10.3.3 Keep the URL in sync with the input field" ID="ID_1452393700" CREATED="1769225379519" MODIFIED="1769225388905"/>
+<node TEXT="10.3.4 Update the table to reflect the search query" ID="ID_329395590" CREATED="1769225389054" MODIFIED="1769225397729"/>
+<node TEXT="10.3.5 Best practice: Debouncing" POSITION="top_or_left" ID="ID_1655159134" CREATED="1769225415255" MODIFIED="1769225441682"/>
+</node>
+<node TEXT="10.4 Adding pagination" ID="ID_1607531648" CREATED="1769225442863" MODIFIED="1769225453082"/>
+</node>
+<node TEXT="11. Mutating Data" FOLDED="true" POSITION="bottom_or_right" ID="ID_729882400" CREATED="1768574438299" MODIFIED="1768574443445">
+<node TEXT="11.1 What are Server Actions?" ID="ID_305010281" CREATED="1769225462031" MODIFIED="1769225472042"/>
+<node TEXT="11.2 Using forms with Server Actions" ID="ID_1145722312" CREATED="1769225473815" MODIFIED="1769225483129"/>
+<node TEXT="11.3 Next.js with Server Actions" ID="ID_1798797346" CREATED="1769225488959" MODIFIED="1769225545346"/>
+<node TEXT="11.4 Creating an invoice" ID="ID_1328178290" CREATED="1769225545855" MODIFIED="1769225551618">
+<node TEXT="11.4.1 Create a form to capture the user&apos;s input" ID="ID_1637351088" CREATED="1769225555295" MODIFIED="1769225566450"/>
+<node TEXT="11.4.2 Create a Server Action and invoke it from the form" ID="ID_171531836" CREATED="1769225566622" MODIFIED="1769225581202"/>
+<node TEXT="11.4.3 Inside your Server Action, extract the data from the &quot;formData&quot; object" ID="ID_627901489" CREATED="1769225581374" MODIFIED="1769225599641"/>
+<node TEXT="11.4.4 Validate and prepare the data to be inserted into your database" ID="ID_704131292" CREATED="1769225599806" MODIFIED="1769225618579">
+<node TEXT="11.4.4.1 Type validation and coercion" ID="ID_42606050" CREATED="1769225656463" MODIFIED="1769225668017"/>
+<node TEXT="11.4.4.2 Storing values in cents" ID="ID_500079004" CREATED="1769225668190" MODIFIED="1769225678976"/>
+<node TEXT="11.4.4.3 Creating new dates" ID="ID_1310090831" CREATED="1769225682455" MODIFIED="1769225687505"/>
+</node>
+<node TEXT="11.4.5 Insert the data and handle any errors" ID="ID_989522173" CREATED="1769225618743" MODIFIED="1769225628010"/>
+<node TEXT="11.4.6 Revalidate the cache and redirect the user back to invoices page" ID="ID_243015266" CREATED="1769225628183" MODIFIED="1769225640889"/>
+</node>
+<node TEXT="11.5 Updating an invoice" ID="ID_717109982" CREATED="1769225694399" MODIFIED="1769225700105">
+<node TEXT="11.5.1 Create a Dynamic route Segment with the invoice" ID="ID_92761814" CREATED="1769225705103" MODIFIED="1769225719650"/>
+<node TEXT="11.5.2 Read the invoice &quot;id&quot; from page &quot;params&quot;" ID="ID_1813119157" CREATED="1769225720471" MODIFIED="1769225735041"/>
+<node TEXT="11.5.3 Fetch the specific invoice" ID="ID_302991023" CREATED="1769225735230" MODIFIED="1769225744458"/>
+<node TEXT="11.5.4 Pass the &quot;id&quot; to the Server Action" ID="ID_1458653002" CREATED="1769225744622" MODIFIED="1769225754034"/>
+<node TEXT="11.5.5 Calling &quot;revalidatePath&quot; to clear the client cache and make a new server request" ID="ID_968388640" CREATED="1769225754214" MODIFIED="1769225987970"/>
+<node TEXT="11.5.6 Calling &quot;redirect&quot; to redirect the user to the invoice&apos;s page" ID="ID_332976339" CREATED="1769225988135" MODIFIED="1769226002011"/>
+</node>
+<node TEXT="11.6 Deleting an invoice" ID="ID_1615950499" CREATED="1769226004992" MODIFIED="1769226009507"/>
+</node>
+<node TEXT="05. Navigating Between Pages" FOLDED="true" POSITION="top_or_left" ID="ID_657216829" CREATED="1768574393805" MODIFIED="1769437351771" VGAP_QUANTITY="3 pt">
+<node TEXT="5.1 Why optimize navigation?" ID="ID_494664811" CREATED="1769224752952" MODIFIED="1769224761797"/>
+<node TEXT="5.2 The &lt;link&gt; component" FOLDED="true" ID="ID_1300584649" CREATED="1769224763115" MODIFIED="1769224769276">
+<node TEXT="5.2.1 Automatic code-splitting and prefetching" ID="ID_457048168" CREATED="1769224776896" MODIFIED="1769224790724"/>
+</node>
+<node TEXT="5.3 Pattern: Showing active links" ID="ID_1728281481" CREATED="1769224795322" MODIFIED="1769437351769"/>
 </node>
 </node>
 </map>
