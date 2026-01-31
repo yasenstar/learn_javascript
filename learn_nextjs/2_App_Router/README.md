@@ -68,7 +68,7 @@ The `/seed` route will fail if it can't find the specific database mentioned in 
    ```
 4. If it returns `(0 rows)`, means database is not exist, then create it by running:
    ```SQL
-   CREATE DATABASE nextjs_database;
+   CREATE DATABASE nextjs_dashboard;
    ```
 
 ### Force "NO SSL" in `.env` File
