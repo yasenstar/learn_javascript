@@ -15,7 +15,13 @@
       - [Disadvantages of Static Rendering](#disadvantages-of-static-rendering)
       - [Types of Static Rendering in Next.js](#types-of-static-rendering-in-nextjs)
       - [Example of Static Rendering using SSG](#example-of-static-rendering-using-ssg)
+      - [Use Cases for Static Rendering](#use-cases-for-static-rendering)
     - [Dynamic Rendering](#dynamic-rendering)
+      - [Benefits of Dynamic Rendering](#benefits-of-dynamic-rendering)
+      - [Disadvantages of Dynamic Rendering](#disadvantages-of-dynamic-rendering)
+      - [Types of Dynamic Rendering in Next.js](#types-of-dynamic-rendering-in-nextjs)
+      - [Example of Dynamic Rendering using SSR](#example-of-dynamic-rendering-using-ssr)
+      - [Use Cases for Dynamic Rendering](#use-cases-for-dynamic-rendering)
 
 ## Chapter 6. Setting Up Your Database
 
@@ -177,18 +183,61 @@ export default function Blog({ posts }) {
 }
 ```
 
+#### Use Cases for Static Rendering
+
+- Blogs and news websites
+- Marketing and landing pages
+- Documentation sites
+- E-commerce product listing
+
 ### Dynamic Rendering
 
-Benefits --
+#### Benefits of Dynamic Rendering
 
 - **Real-Time Data**: Dynamic rendering allows your application to display real-time or frequently updated data. This is ideal for applications where data changes often.
 - **User-Specific Content**: It's easier to serve personalized content, such as dashboards or user profiles, and update the data based on user interaction.
 - **Request Time Information**: Dynamic rendering allows you to access information that can only be known at request time, such as cookies or the URL search parameters.
 
-Disadvantages --
+#### Disadvantages of Dynamic Rendering
 
 - **Complexity**: these sites are generally more complex to set up and maintain compared to static websites. This complexity stems from the need to manage server-side scripts, databases, and CMS, which require a higher level of technical expertise.
 - **Performance Concerns**: they may load slower than static pages due to the real-time generation of content. Every time a user requests a page, the server must process the request, fetch the required data, and then render the page.
+
+#### Types of Dynamic Rendering in Next.js
+
+1. Server-Side Rendering (SSR) - Fetches data on every request
+2. Client-Side Rendering (CSR) - Fetches and renders content on the client-side after initial load
+
+#### Example of Dynamic Rendering using SSR
+
+```js
+export async function getServerSideProps() {
+  const response = await fetch('https://api.example.com/user');
+  const user = await response.json();
+
+  return {
+    props: { user },
+  };
+}
+
+export default function Profile({ user }) {
+  return (
+    <div>
+      <h1>Welcome, {user.name}</h1>
+      <p>Email: {user.email}</p>
+    </div>
+  )
+}
+```
+
+#### Use Cases for Dynamic Rendering
+
+- Personalized dashboards (e.g., user profiles)
+- Real-time data applications
+- Stock market or weather updates
+- E-commerce checkout pages.
+
+*Source of reference*: https://akcoding.com/next-js-tutorial/static-and-dynamic-rendering/
 
 ---
 
