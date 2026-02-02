@@ -9,6 +9,13 @@
     - [Remove SSL Setting in File `/seed/route.ts`](#remove-ssl-setting-in-file-seedroutets)
     - [Clear the Database and Start Fresh](#clear-the-database-and-start-fresh)
     - [Update Seed Route Code to more Error Message](#update-seed-route-code-to-more-error-message)
+  - [Chapter 8. Static and Dynamic Rendering](#chapter-8-static-and-dynamic-rendering)
+    - [Static Rendering](#static-rendering)
+      - [Benefits of Static Rendering](#benefits-of-static-rendering)
+      - [Disadvantages of Static Rendering](#disadvantages-of-static-rendering)
+      - [Types of Static Rendering in Next.js](#types-of-static-rendering-in-nextjs)
+      - [Example of Static Rendering using SSG](#example-of-static-rendering-using-ssg)
+    - [Dynamic Rendering](#dynamic-rendering)
 
 ## Chapter 6. Setting Up Your Database
 
@@ -120,6 +127,68 @@ try {
   return Response.json({ error: error.message }, { status: 500 });
 }
 ```
+
+---
+
+## Chapter 8. Static and Dynamic Rendering
+
+### Static Rendering
+
+#### Benefits of Static Rendering
+
+- **Faster Websites**: Pre-rendered content can be cached and globally distributed when deployed to platforms like Vercel. This ensures that users around the world can access your website's content more quickly and reliably.
+- **Reduced Server Load**: Because the content is cached, your server does not have to dynamically generate content for each user request. This can reduce compute costs.
+- **SEO**: Pre-rendered content is easier for search engine crawlers to index, as the content is already available when the page loads. This can lead to improved search engine rankings.
+
+#### Disadvantages of Static Rendering
+
+- **Limited Interactivity**: Static websites cannot offer the same level of dynamic content and user interaction as dynamic sites. This makes them less suitable for applications that require real-time updates or user engagement.
+- **Need Manual Updates**: Any content change requires editing the HTML files directly, which can be time-consuming and less efficient, especially for larger sites with numerous pages.
+
+#### Types of Static Rendering in Next.js
+
+1. Static Site Generation (SSG) - Generates static pages at build time.
+2. Incremental Static Regeneration (ISR) - Updates static pages in the background without a full rebuild.
+
+#### Example of Static Rendering using SSG
+
+```js
+export async function getStaticProps() {
+  const response = await fetch('https://api.example.com/posts');
+  const posts = await response.json();
+
+  return {
+    props: { posts },
+  };
+}
+
+export default function Blog({ posts }) {
+  return (
+    <div>
+      <h1>Blog Posts</h1>
+      {posts.map(post => {
+        <div key={post.id}>
+          <h2>{post.title}</h2>
+          <p>{post.content}</p>
+        </div>
+      })}
+    </div>
+  );
+}
+```
+
+### Dynamic Rendering
+
+Benefits --
+
+- **Real-Time Data**: Dynamic rendering allows your application to display real-time or frequently updated data. This is ideal for applications where data changes often.
+- **User-Specific Content**: It's easier to serve personalized content, such as dashboards or user profiles, and update the data based on user interaction.
+- **Request Time Information**: Dynamic rendering allows you to access information that can only be known at request time, such as cookies or the URL search parameters.
+
+Disadvantages --
+
+- **Complexity**: these sites are generally more complex to set up and maintain compared to static websites. This complexity stems from the need to manage server-side scripts, databases, and CMS, which require a higher level of technical expertise.
+- **Performance Concerns**: they may load slower than static pages due to the real-time generation of content. Every time a user requests a page, the server must process the request, fetch the required data, and then render the page.
 
 ---
 
