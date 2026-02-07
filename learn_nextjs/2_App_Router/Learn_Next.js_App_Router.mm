@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Learn_Next.js&#xa;(App Router)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1768574641149" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="1.1">
+<node TEXT="Learn_Next.js&#xa;(App Router)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1768574641149" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="0.9090909">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sky_element_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -113,12 +113,7 @@
 <node TEXT="3.6 Adding the desktop hero image" ID="ID_1460533843" CREATED="1769178123456" MODIFIED="1769178131378"/>
 <node TEXT="3.7 Practice: Adding the mobile hero image" ID="ID_1086048897" CREATED="1769178137976" MODIFIED="1769178154043"/>
 </node>
-<node TEXT="08. Static and Dynamic Rendering" POSITION="bottom_or_right" ID="ID_1671878719" CREATED="1768574415672" MODIFIED="1768574425375">
-<node TEXT="8.1 What is Static Rendering?" ID="ID_1043084312" CREATED="1769225087224" MODIFIED="1769225096931"/>
-<node TEXT="8.2 What is Dynamic Rendering?" ID="ID_480370257" CREATED="1769225108321" MODIFIED="1769225116738"/>
-<node TEXT="8.3 Simulating a Slow Data Fetch" ID="ID_1362044399" CREATED="1769225120080" MODIFIED="1769225129259"/>
-</node>
-<node TEXT="09. Streaming" FOLDED="true" POSITION="bottom_or_right" ID="ID_1757048157" CREATED="1768574425541" MODIFIED="1768574429785">
+<node TEXT="09. Streaming" POSITION="bottom_or_right" ID="ID_1757048157" CREATED="1768574425541" MODIFIED="1768574429785">
 <node TEXT="9.1 What is Streaming?" ID="ID_1606773080" CREATED="1769225135560" MODIFIED="1769225144203"/>
 <node TEXT="9.2 Streaming a whole page with &quot;loading.tsx&quot;" FOLDED="true" ID="ID_1128897994" CREATED="1769225148024" MODIFIED="1769225188450">
 <node TEXT="9.2.1 Adding loading skeletons" ID="ID_1574199992" CREATED="1769225192599" MODIFIED="1769225199539"/>
@@ -136,10 +131,10 @@
 <node TEXT="4.4 Creating the dashboard layout" ID="ID_645634672" CREATED="1769224724849" MODIFIED="1769224732524"/>
 <node TEXT="4.5 Root layout" ID="ID_485157633" CREATED="1769224738233" MODIFIED="1769224742825"/>
 </node>
-<node TEXT="10. Adding Search and Pagination" FOLDED="true" POSITION="bottom_or_right" ID="ID_1303100278" CREATED="1768574429965" MODIFIED="1768574438134">
+<node TEXT="10. Adding Search and Pagination" POSITION="bottom_or_right" ID="ID_1303100278" CREATED="1768574429965" MODIFIED="1768574438134">
 <node TEXT="10.1 Starting code" ID="ID_865255550" CREATED="1769225320727" MODIFIED="1769225326746"/>
 <node TEXT="10.2 Why use URL search params?" ID="ID_40150133" CREATED="1769225330583" MODIFIED="1769225339122"/>
-<node TEXT="10.3 Adding the search functionality" ID="ID_324645666" CREATED="1769225344495" MODIFIED="1769225351666">
+<node TEXT="10.3 Adding the search functionality" FOLDED="true" ID="ID_324645666" CREATED="1769225344495" MODIFIED="1769225351666">
 <node TEXT="10.3.1 Capture the user&apos;s input" ID="ID_307667410" CREATED="1769225357895" MODIFIED="1769225367074"/>
 <node TEXT="10.3.2 Update the URL with the search params" ID="ID_1151982448" CREATED="1769225367239" MODIFIED="1769225379355"/>
 <node TEXT="10.3.3 Keep the URL in sync with the input field" ID="ID_1452393700" CREATED="1769225379519" MODIFIED="1769225388905"/>
@@ -244,6 +239,11 @@
 <node TEXT="15.4.2 Page title and descriptions" ID="ID_152795926" CREATED="1769226901794" MODIFIED="1769226909382"/>
 </node>
 <node TEXT="15.5 Practice: Adding metadata" ID="ID_581747900" CREATED="1769226909996" MODIFIED="1769226923301"/>
+</node>
+<node TEXT="08. Static and Dynamic Rendering" FOLDED="true" POSITION="top_or_left" ID="ID_1671878719" CREATED="1768574415672" MODIFIED="1768574425375">
+<node TEXT="8.1 What is Static Rendering?" ID="ID_1043084312" CREATED="1769225087224" MODIFIED="1769225096931"/>
+<node TEXT="8.2 What is Dynamic Rendering?" ID="ID_480370257" CREATED="1769225108321" MODIFIED="1769225116738"/>
+<node TEXT="8.3 Simulating a Slow Data Fetch" ID="ID_1362044399" CREATED="1769225120080" MODIFIED="1769225129259"/>
 </node>
 </node>
 </map>
