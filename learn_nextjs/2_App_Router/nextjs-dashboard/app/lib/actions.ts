@@ -1,6 +1,9 @@
 'use server';
 
 import { z } from 'zod';
+import postgres from 'postgres';
+
+const sql = postgres(process.env.POSTGRES_URL!);
 
 const FormSchema = z.object({
     id: z.string(),
@@ -27,4 +30,9 @@ export async function createInvoice(formData: FormData) {
     const date = new Date().toISOString().split('T')[0];
     console.log(customerId, amount, amountInCents, status, date);
     console.log(typeof amount);
+
+    await sql`
+        INSERT INTO invoices (customer_id, amount, status, date)
+        VALUES (${customerId}, ${amountInCents}, ${status}, ${date})
+    `;
 }
