@@ -1,3 +1,10 @@
 export default function Page() {
-    return <p>Test Page</p>;
+    // Action
+    async function create(formData: FormData) {
+        'use server';
+
+    }
+    // Invoke action using 'action' attribute
+    // return <p>Test Page</p>;
+    return <form action={create}>FormDate</form>;
 }

@@ -86,7 +86,7 @@ export async function fetchCardData() {
   }
 }
 
-const ITEMS_PER_PAGE = 3;
+const ITEMS_PER_PAGE = 2;
 export async function fetchFilteredInvoices(
   query: string,
   currentPage: number,
