@@ -31,6 +31,6 @@
     "app/lib/placeholder-data.ts",
     "scripts/seed.js",
     ".next/dev/types/**/*.ts"
-, "app/query/route.ts.bak"  ],
+, "app/query/route.ts.bak", "../archive/page_before_9.2.3.tsx"  ],
   "exclude": ["node_modules"]
 }
